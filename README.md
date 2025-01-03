@@ -23,10 +23,10 @@ Newsify is a web application designed to deliver personalized news content to us
 
 5. **Trending Topics and Insights**
    - Display real-time trending topics and headlines.
-   - Use AI to generate topic overviews or identify patterns in trending news.
+   - Use AI to generate topic overviews (by generating summary of the topic) or identify patterns in trending news.
 
 6. **Interactive Features**
-   - AI Discussions: Enable chat-like discussions with an AI assistant that explains or debates news topics.
+   - AI Discussions: Enable chat-like discussions with an AI assistant that explains or debates news topics on each news article.
 
 ## Tech Stack
 
