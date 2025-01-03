@@ -27,7 +27,7 @@ export function RecommendationBar() {
   if (!recommendations || !recommendations.length) {
     return (
       <div className="h-72 flex items-center justify-center bg-gray-50 text-gray-600">
-        No recommendations available
+        please sign in to get your news recommendations
       </div>
     );
   }
