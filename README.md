@@ -6,27 +6,57 @@ Newsify is a web application designed to deliver personalized news content to us
 ## Features
 
 1. **News Curation**
-   - Aggregate news from multiple sources using APIs like News Data API.
-   - Categorize news by topics: Politics, Technology, Sports, Health, Entertainment, etc.
+   - **Technologies Used**:
+     - **API Integration**: News Data API to fetch articles.
+     - **Backend**: Supabase for storing and managing categorized articles.
+     - **Frontend**: React for rendering categorized news topics dynamically.
+   - **Description**:
+     - Aggregate news from multiple sources using APIs like News Data API.
+     - Categorize news by topics: Politics, Technology, Sports, Health, Entertainment, etc.
 
 2. **AI-Powered Summarization**
-   - Use an LLM Hugging Face (locally installed) to generate concise summaries of long news articles.
-   - Display summaries alongside the original articles for user convenience.
+   - **Technologies Used**:
+     - **AI Framework**: Hugging Face (LLM locally installed) for text summarization.
+     - **Backend**: Node.js to handle AI model interactions.
+     - **Frontend**: React to display summaries alongside original articles.
+   - **Description**:
+     - Use an LLM Hugging Face (locally installed) to generate concise summaries of long news articles.
+     - Display summaries alongside the original articles for user convenience.
 
 3. **Personalized Recommendations**
-   - Leverage user preferences (selected topics, reading history) to recommend articles.
-   - Use AI for context-aware suggestions, such as related news or follow-ups on ongoing stories. Implemented using TF-IDF.
+   - **Technologies Used**:
+     - **Algorithm**: TF-IDF (Term Frequency-Inverse Document Frequency) for content-based recommendations.
+     - **Backend**: Supabase to store user preferences and reading history.
+     - **Frontend**: React for displaying personalized content.
+   - **Description**:
+     - Leverage user preferences (selected topics, reading history) to recommend articles.
+     - Use AI for context-aware suggestions, such as related news or follow-ups on ongoing stories.
 
 4. **Sentiment Analysis**
-   - Integrate AI to analyze the tone (positive, negative, neutral) of articles.
-   - Allow users to filter news by sentiment (e.g., "Show me uplifting news").
+   - **Technologies Used**:
+     - **AI Framework**: Natural Language Processing (NLP) libraries like SpaCy or NLTK.
+     - **Backend**: Node.js to handle sentiment analysis logic.
+     - **Frontend**: React to allow filtering articles by sentiment.
+   - **Description**:
+     - Integrate AI to analyze the tone (positive, negative, neutral) of articles.
+     - Allow users to filter news by sentiment (e.g., "Show me uplifting news").
 
 5. **Trending Topics and Insights**
-   - Display real-time trending topics and headlines.
-   - Use AI to generate topic overviews (by generating summary of the topic) or identify patterns in trending news.
+   - **Technologies Used**:
+     - **Backend**: Supabase for storing trending topics.
+     - **AI Framework**: NLP to analyze and generate topic insights.
+     - **Frontend**: React for displaying real-time trends dynamically.
+   - **Description**:
+     - Display real-time trending topics and headlines.
+     - Use AI to generate topic overviews or identify patterns in trending news.
 
 6. **Interactive Features**
-   - AI Discussions: Enable chat-like discussions with an AI assistant that explains or debates news topics on each news article.
+   - **Technologies Used**:
+     - **AI Framework**: Hugging face gpt-neo for conversational AI discussions.
+     - **Frontend**: React for chat interface.
+     - **Backend**: Node.js for handling real-time interactions with the AI assistant.
+   - **Description**:
+     - AI Discussions: Enable chat-like discussions with an AI assistant that explains or debates news topics.
 
 ## Tech Stack
 
@@ -107,12 +137,7 @@ Contributions are welcome! Follow these steps to contribute:
 2. Create a new branch for your feature or bug fix.
 3. Commit your changes and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
-For any questions or feedback, please reach out at [shri23.govvala@gmail.com].
-
+For any questions or feedback, please reach out at [shri23.govvala@gmail.com.
 
